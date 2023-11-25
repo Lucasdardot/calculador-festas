@@ -1,0 +1,103 @@
+body {
+    background-color: gray;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.center {
+    border: 5px solid white;
+    height: 700px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.churrasco {
+    width: 40%;
+    height: 80%;
+    background-color: rgb(112, 108, 108);
+    display: flex;
+    transition: box-shadow 0.3s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.festa {
+    width: 40%;
+    height: 80%;
+    background-color: rgb(112, 108, 108);
+    display: flex;
+    transition: box-shadow 0.3s ease-in-out;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.titulos1e2 {
+    font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+}
+
+#button1 {
+    width: 40%;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 100px;
+    background-color: rgb(112, 108, 108);
+    color: rgb(112, 108, 108);
+    font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+
+}
+
+#button2 {
+    width: 40%;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 100px;
+    background-color: rgb(112, 108, 108);
+    color:rgb(112, 108, 108);
+    font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+}
+
+.churrasco:hover {
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+    #button1 {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+
+    }
+}
+
+
+#button1:hover {
+    border: 2px solid black;
+}
+
+.festa:hover {
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+    #button2 {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        
+    }
+}
+
+#button2:hover {
+    border: 2px solid white;
+}
+
+img {
+    width: 260px;
+    margin: 30px;
+}

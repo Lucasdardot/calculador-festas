@@ -1,0 +1,62 @@
+body{
+    background-color: gray;
+}
+
+.inputs{
+    height: 500px;
+    width: 100%;
+    
+    display: flex;
+}
+
+.inp{
+    
+    width: 39%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.numeros{
+    width: 30%;
+    height: 30%;
+    font-size: 30px;
+    font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: rgb(186, 183, 183);
+}
+
+.h2{
+    font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+}
+
+.button {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 510px;
+}
+
+button {
+    width: 20%;
+    height: 20%;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-family: 'Noto Sans Pahawh Hmong', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: rgb(186, 183, 183);
+    transition: box-shadow 0.3s ease-in-out;
+
+
+
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: rgb(0, 0, 0) 0px 3px 8px;
+}
